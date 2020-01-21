@@ -21,8 +21,10 @@ def find_the_cheese(array)
       while cheese_index < array[i].length
       if n == array[cheese_index]
         return array[cheese_index]
-      cheese_index += 1
+      else
+        cheese_index += 1
+      end
+      i += 1
     end
-    i += 1
   end
 
