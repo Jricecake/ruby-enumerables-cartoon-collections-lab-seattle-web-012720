@@ -25,4 +25,4 @@ def find_the_cheese(array)
     end
     i += 1
   end
-end
+
