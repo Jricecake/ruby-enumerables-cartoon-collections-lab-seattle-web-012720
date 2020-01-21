@@ -18,9 +18,9 @@ def find_the_cheese(array)
     i = 0
     while i < array.length
       cheese_index = 0
-      while cheese_index < array[i].length
-      if n == array[cheese_index]
-        return array[cheese_index]
+      while cheese_index < cheese_types.length
+      if n == cheese_types[cheese_index]
+        return cheese_types[cheese_index]
       else
         cheese_index += 1
       end
