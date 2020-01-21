@@ -15,6 +15,14 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.include? do
     |n|
-    if n == cheese_types
-
+    i = 0
+    while i < array.length
+      cheese_index = 0
+      while cheese_index < array[i].length
+      if n == array[cheese_index]
+        return array[cheese_index]
+      cheese_index += 1
+    end
+    i += 1
+  end
 end
